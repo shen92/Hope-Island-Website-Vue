@@ -1,18 +1,19 @@
 <template>
   <div class="gallery">
   <div class="mainContent">
-    This is Gallery
+    <Carousel/>
   </div>
     <Footer/>
   </div>
 </template>
 
 <script>
-import { Footer } from '@/components'
+import { Carousel, Footer } from '@/components'
 
 export default {
   name: 'Gallery',
   components: {
+    Carousel,
     Footer
   },
 }
@@ -26,8 +27,10 @@ export default {
   }
 
   .mainContent {
-    height: 100%;
+    height: fit-content;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 </style>
