@@ -29,7 +29,7 @@
           </div>
           <div style="width: 25vw">
             <div class="content cardContent" >
-              It is a beautiful and quiet town in the heart of Wild Timberland. It is also the safe-house of Vincent, Marc and Charlotte.
+              Walnut Town is a beautiful and quiet town in the heart of Wild Timberland. It is also the safe-house of Vincent, Marc and Charlotte.
             </div>
           </div>
         </div>
@@ -44,7 +44,7 @@
           </div>
           <div style="width: 25vw">
             <div class="content cardContent" >
-              Wild Timberland possesses the wildest the most ancient forest on hope island. This area owns an amazing landscape with forest, valleys, rivers and lakes. There also exists lots of danger
+              Wild Timberland possesses the wildest the most ancient forest on hope island. This area owns an amazing landscape with forest, valleys, rivers and lakes. There also exists lots of danger.
             </div>
           </div>
         </div>
@@ -59,7 +59,7 @@
           </div>
           <div style="width: 25vw">
             <div class="content cardContent" >
-              The Barren Desert is the hottest and driest place on Hope Island. In the Barren Desert, there are villages, oases and ancient relics. Also, there are lots of danger.
+              The Barren Desert is the hottest and driest place on Hope Island. In the Barren Desert, there are villages, oases and ancient relics. Be careful, don't get lost in the Barren Desert.
             </div>
           </div>
         </div>

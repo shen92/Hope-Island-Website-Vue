@@ -20,6 +20,7 @@ export default {
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     display: flex;
   }
 
