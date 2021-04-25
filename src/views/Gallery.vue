@@ -1,8 +1,8 @@
 <template>
   <div class="gallery">
-  <div class="mainContent">
-    <Carousel/>
-  </div>
+    <div class="mainContent">
+      <Carousel/>
+    </div>
     <Footer/>
   </div>
 </template>

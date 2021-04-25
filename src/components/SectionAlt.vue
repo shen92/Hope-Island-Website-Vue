@@ -1,8 +1,6 @@
 <template>
-  <div class="background" :style="{backgroundImage:`url('${backgroundPath}')`, justifyContent: isReversed ? 'flex-end' : 'flex-start'}">
-    <div class="card">
-      <slot></slot>
-    </div>
+  <div class="background" :style="{backgroundImage:`url('${backgroundPath}')`}">
+    <slot></slot>
   </div>
 </template>
 
@@ -10,7 +8,6 @@
 export default {
   props: {
     backgroundPath: String,
-    isReversed: Boolean
   },
 }
 </script>
@@ -21,10 +18,7 @@ export default {
     background-size: cover;
     background-attachment: fixed;
     display: flex;
-  }
-
-  .card {
-    height: 100%;
-    width: 40%;
+    justify-content: center;
+    align-items: center;
   }
 </style>

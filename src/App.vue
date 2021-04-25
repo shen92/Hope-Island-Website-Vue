@@ -54,4 +54,14 @@ html, body{
 .content {
   font-family: 'Open Sans', sans-serif;
 }
+
+.textLight {
+  color: white
+}
+
+.link {
+  color: #49aaff;
+  text-decoration: underline;
+  cursor: pointer;
+}
 </style>
