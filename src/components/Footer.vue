@@ -3,7 +3,7 @@
     <div class="footer">
       <div class="leftColumn">
         <div>COPYRIGHT 2021 BuggyPunk - ALL RIGHTS RESERVED</div>
-        <div style="margin-top: 10px">Powered by VueJS</div>
+        <div style="margin-top: 10px">Powered by VueJS, Developed by Yingjie Shen</div>
       </div>
       <div class="rightColumn">
         <div class="iconContainer">

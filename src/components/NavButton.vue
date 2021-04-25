@@ -27,6 +27,7 @@ export default {
 
 <style scoped>
   .button {
+    width: fit-content;
     border: 1px solid black;
     padding: 10px 20px;
     cursor: pointer;

@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar class="navBar" clipped-right height="60" fixed>
+  <v-app-bar class="navBar" clipped-right height="63" fixed>
     <div class="navContentContainer">
       <a href="https://games.usc.edu" target="_blank">
         <img height="50" width="auto" src="/images/logo/uscGames.png">
