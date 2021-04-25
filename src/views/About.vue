@@ -3,6 +3,7 @@
     <SectionAlt backgroundPath="/images/scenes/level3b.png">
       <div class="title heroTitle textLight">Welcome to Hope Island</div>
     </SectionAlt>
+    <Introduction/>
     <SectionAlt backgroundPath="/images/scenes/level2-2.png">
       <div style="display: flex; flex-direction: column; align-items: center">
         <div class="title heroTitle textLight">Design and Inspirations</div>
@@ -83,14 +84,15 @@
 </template>
 
 <script>
-import { Section, SectionAlt, Footer } from '@/components'
+import { Section, SectionAlt, Introduction, Footer } from '@/components'
 
 export default {
   name: 'About',
   components: {
     Footer,
     Section,
-    SectionAlt
+    SectionAlt,
+    Introduction
   },
 }
 </script>
