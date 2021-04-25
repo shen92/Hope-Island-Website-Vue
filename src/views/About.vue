@@ -13,6 +13,7 @@
     <SectionAlt backgroundPath="/images/scenes/level1b.png">
       <div class="title heroTitle textLight">Gameplay and Mode</div>
     </SectionAlt>
+    <GameMode/>
     <SectionAlt backgroundPath="/images/characters/charlottel1.png">
       <div class="title heroTitle textLight">Characters and Skills</div>
     </SectionAlt>
@@ -85,7 +86,7 @@
 </template>
 
 <script>
-import { Section, SectionAlt, Introduction, Characters, Footer } from '@/components'
+import { Section, SectionAlt, Introduction, GameMode, Characters, Footer } from '@/components'
 
 export default {
   name: 'About',
@@ -94,6 +95,7 @@ export default {
     Section,
     SectionAlt,
     Introduction,
+    GameMode,
     Characters
   },
 }
