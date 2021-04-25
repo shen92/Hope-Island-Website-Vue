@@ -1,13 +1,11 @@
 <template>
   <v-carousel hide-delimiters cycle :prev-icon="false" :next-icon="false" height="100vh" :interval="5000">
-    <transition-group name="fade-enter">
-      <v-carousel-item
-        v-for="(path,i) in images"
-        :key="i"
-        :src="path"
-      >
-      </v-carousel-item>
-    </transition-group>
+    <v-carousel-item
+      v-for="(path,i) in images"
+      :key="i"
+      :src="path"
+    >
+    </v-carousel-item>
   </v-carousel>
 </template>
 
