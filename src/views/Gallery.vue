@@ -1,8 +1,8 @@
 <template>
-  <div class="about">
-    <div class="mainContent">
-      This is About
-    </div>
+  <div class="gallery">
+  <div class="mainContent">
+    This is Gallery
+  </div>
     <Footer/>
   </div>
 </template>
@@ -11,7 +11,7 @@
 import { Footer } from '@/components'
 
 export default {
-  name: 'About',
+  name: 'Gallery',
   components: {
     Footer
   },
@@ -19,7 +19,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .about {
+  .gallery {
     height: 100%;
     display: flex;
     flex-direction: column;

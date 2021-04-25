@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import { Home, About } from '@/views'
+import { Home, About, Team, Gallery } from '@/views'
 
 Vue.use(VueRouter)
 
@@ -16,6 +16,22 @@ const routes = [
     component: About,
     meta: {
       title: 'Hope Island | About',
+    },
+  },
+  {
+    path: '/team',
+    name: 'Team',
+    component: Team,
+    meta: {
+      title: 'Hope Island | Team',
+    },
+  },
+  {
+    path: '/gallery',
+    name: 'Gallery',
+    component: Gallery,
+    meta: {
+      title: 'Hope Island | Gallery',
     },
   }
 ]
