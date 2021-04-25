@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <div class="mainContent">
-      This is About
+      
     </div>
     <Footer/>
   </div>

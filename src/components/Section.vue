@@ -19,6 +19,7 @@ export default {
   .background {
     height: calc(100% - 60px);
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
   }
 
