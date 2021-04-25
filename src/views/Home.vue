@@ -1,30 +1,19 @@
 <template>
   <div class="home">
     <Landing/>
-    <!-- <div class="section">
-      <img class="sectionImage" src="@/assets/img/scenes/level0.png">
-    </div>
-    <div class="section">
-      <img class="sectionImage" src="@/assets/img/scenes/level1-3.png">
-    </div>
-    <div class="section">
-      <img class="sectionImage" src="@/assets/img/scenes/level2b.png">
-    </div>
-    <div class="section">
-      <img class="sectionImage" src="@/assets/img/scenes/level3-2.png">
-    </div> -->
-    
+    <Section backgroundPath="/images/scenes/level0.png"/>
     <Footer/>
   </div>
 </template>
 
 <script>
-import { Landing, Footer } from '@/components'
+import { Landing, Section, Footer } from '@/components'
 
 export default {
   name: 'Home',
   components: {
     Landing,
+    Section,
     Footer
   },
 }

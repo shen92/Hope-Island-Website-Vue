@@ -10,7 +10,7 @@
     </div>
     <div class="rightColumn">
       <div class="imageContainer">
-        <img class="illustrate" src="@/assets/img/illustrate/castle.png">
+        <img class="illustrate" src="/images/illustrate/castle.png">
       </div>
     </div>
   </div>

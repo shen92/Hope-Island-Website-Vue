@@ -2,12 +2,12 @@
   <v-app-bar class="navBar" clipped-right height="60" fixed>
     <div class="navContentContainer">
       <a href="https://games.usc.edu" target="_blank">
-        <img height="50" width="auto" src="@/assets/img/logo/uscGames.png">
+        <img height="50" width="auto" src="/images/logo/uscGames.png">
       </a>
     </div>
     <div class="navContentContainer" style="justify-content: center">
       <router-link to="/">
-        <img height="50" width="auto" src="@/assets/img/logo/hopeIsland.png">
+        <img height="50" width="auto" src="/images/logo/hopeIsland.png">
       </router-link>
     </div>
     <div class="navContentContainer" style="justify-content: flex-end">
