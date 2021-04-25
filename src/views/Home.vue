@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <Landing/>
+    <VideoPlayer/>
     <Section backgroundPath="/images/scenes/level0.png" :isReversed="false">
       <div class="slotContentContainer features">
         <div class="slotContent">
@@ -71,12 +72,13 @@
 </template>
 
 <script>
-import { Landing, Section, NavButton, Footer } from '@/components'
+import { Landing, VideoPlayer, Section, NavButton, Footer } from '@/components'
 
 export default {
   name: 'Home',
   components: {
     Landing,
+    VideoPlayer,
     Section,
     NavButton,
     Footer

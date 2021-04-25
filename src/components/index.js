@@ -1,5 +1,6 @@
 export { default as NavBar } from './NavBar';
 export { default as Landing } from './Landing';
+export { default as VideoPlayer } from './VideoPlayer';
 export { default as NavButton } from './NavButton';
 export { default as Section } from './Section';
 export { default as SectionAlt } from './SectionAlt';
