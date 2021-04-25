@@ -7,7 +7,7 @@
     <SectionAlt backgroundPath="/images/scenes/level2-2.png">
       <div style="display: flex; flex-direction: column; align-items: center">
         <div class="title heroTitle textLight">Design and Inspirations</div>
-        <div class="title heroSubTitle textLight" style="margin-top: 2vh">Read More on <span class="link">Game Design Document</span></div>
+        <div class="title heroSubTitle textLight" style="margin-top: 2vh">Read More on <span><a class="link" href="/files/Hope_Island_GDD.pdf" download>Game Design Document</a></span></div>
       </div>
     </SectionAlt>
     <SectionAlt backgroundPath="/images/scenes/level1b.png">
