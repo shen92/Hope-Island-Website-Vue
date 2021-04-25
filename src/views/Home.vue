@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <Landing/>
-    <div class="section">
+    <!-- <div class="section">
       <img class="sectionImage" src="@/assets/img/scenes/level0.png">
     </div>
     <div class="section">
@@ -12,7 +12,8 @@
     </div>
     <div class="section">
       <img class="sectionImage" src="@/assets/img/scenes/level3-2.png">
-    </div>
+    </div> -->
+    
     <Footer/>
   </div>
 </template>
