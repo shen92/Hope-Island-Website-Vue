@@ -10,6 +10,7 @@
         <div class="title heroSubTitle textLight" style="margin-top: 2vh">Read More on <span><a class="link" href="/files/Hope_Island_GDD.pdf" download>Game Design Document</a></span></div>
       </div>
     </SectionAlt>
+    <Inspirations/>
     <SectionAlt backgroundPath="/images/scenes/level1b.png">
       <div class="title heroTitle textLight">Gameplay and Mode</div>
     </SectionAlt>
@@ -86,7 +87,7 @@
 </template>
 
 <script>
-import { Section, SectionAlt, Introduction, GameMode, Characters, Footer } from '@/components'
+import { Section, SectionAlt, Introduction, Inspirations, GameMode, Characters, Footer } from '@/components'
 
 export default {
   name: 'About',
@@ -95,6 +96,7 @@ export default {
     Section,
     SectionAlt,
     Introduction,
+    Inspirations,
     GameMode,
     Characters
   },

@@ -4,6 +4,7 @@ export { default as NavButton } from './NavButton';
 export { default as Section } from './Section';
 export { default as SectionAlt } from './SectionAlt';
 export { default as Introduction } from './Introduction';
+export { default as Inspirations } from './Inspirations';
 export { default as GameMode } from './GameMode';
 export { default as Characters } from './Characters';
 export { default as Carousel } from './Carousel';
