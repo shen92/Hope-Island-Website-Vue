@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <Landing/>
+    <div>Footer</div>
   </div>
 </template>
 
@@ -17,5 +18,6 @@ export default {
 
 <style lang="scss" scoped>
   .home {
+    height: 100%;;
   }
 </style>

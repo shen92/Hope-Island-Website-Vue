@@ -5,7 +5,6 @@
     <div id="appContent">
       <router-view/>
     </div>
-    <div>footer</div>
   </div>
 </template>
 
@@ -26,7 +25,7 @@ html, body{
   height: 100%;
   margin: 0;
   font-family: 'Raleway', sans-serif;
-  color: #333333
+  overflow-x: hidden;
 }
 
 #app {
@@ -37,5 +36,22 @@ html, body{
 
 #appContent {
   flex-grow: 1;
+}
+
+.gameTitle {
+  font-family: 'New Rocker', cursive;
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-family: 'Raleway', sans-serif;
+}
+
+.content {
+  font-family: 'Open Sans', sans-serif;
 }
 </style>
