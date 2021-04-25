@@ -46,7 +46,7 @@
   }
 
   .introductionContentText {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .featuresContainer {
@@ -71,7 +71,7 @@
   }
 
   .featureContentText {
-    font-size: 24px;
-    width: 25vw;
+    font-size: 20px;
+    width: 20vw;
   }
 </style>

@@ -19,13 +19,10 @@
       <div class="slotContentContainer story">
         <div class="slotContent">
           <div class="title cardTitle">Story</div>
-          <div style="width: 25vw">
-            <div class="content cardContent" >
-              Estian Year 1099, Matard invaded Hope Island. 
-            </div>
-            <div class="content cardContent" style="margin-top: 4vh">
-              As the chosen warriors, Vincent, Marc and Charlotte must start the journey to escape Hope Island immediately to release the ancient magic to save Hope Island.
-            </div>
+          <div class="content cardContent" style="width: 25vw">
+            Estian Year 1099, Matard invaded Hope Island. 
+            <br><br>
+            As the chosen warriors, Vincent, Marc and Charlotte must start the journey to escape Hope Island immediately to release the ancient magic to save Hope Island.
           </div>
           <NavButton path="about"/>
         </div>

@@ -16,6 +16,7 @@
     <SectionAlt backgroundPath="/images/characters/charlottel1.png">
       <div class="title heroTitle textLight">Characters and Skills</div>
     </SectionAlt>
+    <Characters/>
     <SectionAlt backgroundPath="/images/scenes/level1-2.png">
       <div class="title heroTitle textLight">Maps and Levels</div>
     </SectionAlt>
@@ -84,7 +85,7 @@
 </template>
 
 <script>
-import { Section, SectionAlt, Introduction, Footer } from '@/components'
+import { Section, SectionAlt, Introduction, Characters, Footer } from '@/components'
 
 export default {
   name: 'About',
@@ -92,7 +93,8 @@ export default {
     Footer,
     Section,
     SectionAlt,
-    Introduction
+    Introduction,
+    Characters
   },
 }
 </script>
