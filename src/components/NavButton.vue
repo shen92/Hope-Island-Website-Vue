@@ -38,10 +38,14 @@ export default {
     padding: 10px 20px;
     cursor: pointer;
     user-select: none;
+    color: black;
+    background: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
   }
 
   .button:hover {
     color: white;
     background: black;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
   }
 </style>

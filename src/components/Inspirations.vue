@@ -16,7 +16,7 @@
     </div>
     <div class="inspirationsContentContainer">
       <div class="content inspirationsContent textLight">
-        The gameplay system design is inspired from a series of popular rouge-like games such as:
+        The gameplay design of Hope Island is inspired from a series of popular rouge-like games such as:
       </div>
       <div class="imagesContainer" style="gap: 4vw">
         <img src="/images/logo/hades.png" height="100">
@@ -24,7 +24,7 @@
         <img src="/images/logo/crown.png" height="100">
       </div>
       <div class="content inspirationsContent textLight" style="margin-top: 2vh">
-        Hope Island is in the theme of fantasy and set in a medieval, background, inspired from a series of 3D open-world adventure games such as:
+        Hope Island is in the theme of fantasy and set in a medieval background, inspired from a series of 3D open-world adventure games such as:
       </div>
       <div class="imagesContainer" style="gap: 4vw">
         <img src="/images/logo/rdr2.png" height="80">

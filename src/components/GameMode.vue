@@ -124,5 +124,12 @@ export default {
     height: 40px;
     width: 40px;
     border-radius: 40px;
+    transform: scale(1.0);
+    transition: transform 0.15s ease-in-out;
+  }
+
+  .dot:hover {
+    transform: scale(1.35);
+    transition: transform 0.15s ease-in-out;
   }
 </style>
