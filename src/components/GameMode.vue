@@ -53,6 +53,12 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'GameMode'
+}
+</script>
+
 <style lang="scss" scoped>
   .gameMode {
     height: 100vh;
@@ -118,5 +124,12 @@
     height: 40px;
     width: 40px;
     border-radius: 40px;
+    transform: scale(1.0);
+    transition: transform 0.15s ease-in-out;
+  }
+
+  .dot:hover {
+    transform: scale(1.35);
+    transition: transform 0.15s ease-in-out;
   }
 </style>

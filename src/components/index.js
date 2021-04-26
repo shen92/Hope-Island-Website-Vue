@@ -8,5 +8,6 @@ export { default as Introduction } from './Introduction';
 export { default as Inspirations } from './Inspirations';
 export { default as GameMode } from './GameMode';
 export { default as Characters } from './Characters';
+export { default as Developer } from './Developer';
 export { default as Carousel } from './Carousel';
 export { default as Footer } from './Footer';

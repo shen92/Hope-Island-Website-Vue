@@ -12,7 +12,7 @@
 import { NavBar } from '@/components'
 
 export default {
-  name: 'Home',
+  name: 'App',
   components: {
     NavBar
   }

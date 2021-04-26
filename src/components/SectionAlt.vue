@@ -6,13 +6,14 @@
 
 <script>
 export default {
+  name: 'SectionAlt',
   props: {
     backgroundPath: String,
   },
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
   .background {
     height: 100vh;
     background-size: cover;

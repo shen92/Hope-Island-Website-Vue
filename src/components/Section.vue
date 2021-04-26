@@ -8,6 +8,7 @@
 
 <script>
 export default {
+  name: 'Section',
   props: {
     backgroundPath: String,
     isReversed: Boolean
@@ -19,7 +20,6 @@ export default {
   .background {
     height: 100vh;
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;
     display: flex;
   }

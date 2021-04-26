@@ -42,6 +42,12 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'Characters'
+}
+</script>
+
 <style lang="scss" scoped>
   .characters {
     height: 150vh;
@@ -70,6 +76,13 @@
   img {
     width: 84%;
     object-fit: contain;
+    transform: scale(1.0);
+    transition: transform 0.25s ease-in-out;
+  }
+
+  img:hover {
+    transform: scale(1.05);
+    transition: transform 0.25s ease-in-out;
   }
 
   .characterDescriptionContainer {

@@ -25,6 +25,12 @@
   </v-footer>
 </template>
 
+<script>
+export default {
+  name: 'Footer'
+}
+</script>
+
 <style lang="scss" scoped>
   .footer {
     padding: 0px 5%;
