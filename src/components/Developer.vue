@@ -44,8 +44,8 @@ export default {
   }
 
   .avatar {
-    height: 100%;
-    width: 80%;
+    height: 84%;
+    width: 84%;
     background-size: contain;
     background-position: center;
   }

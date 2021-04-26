@@ -70,7 +70,7 @@
           </div>
         </div>
       </Developer>
-      <Developer :isReversed="false">
+      <Developer :isReversed="false" avatarPath="/images/avatars/placeholder.png">
         <div class="personalInfo">
           <div class="title">
             Peng Dan 
