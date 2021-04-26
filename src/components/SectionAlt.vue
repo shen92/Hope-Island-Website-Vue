@@ -13,7 +13,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
   .background {
     height: 100vh;
     background-size: cover;
