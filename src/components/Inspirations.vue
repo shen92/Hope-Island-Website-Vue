@@ -77,6 +77,7 @@ export default {
     flex: 1;
     height: 15vh;
     background-size: cover;
+    background-position: center;
   }
 
   .inspirationsContentContainer {
