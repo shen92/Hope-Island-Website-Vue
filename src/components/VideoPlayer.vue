@@ -4,6 +4,12 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'VideoPlayer'
+}
+</script>
+
 <style lang="scss" scoped>
   .videoPlayer {
     width: 100%;

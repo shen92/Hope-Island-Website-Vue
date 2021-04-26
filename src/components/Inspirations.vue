@@ -49,6 +49,12 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'Inspirations'  
+}
+
+</script>
 <style scoped>
   .inspirations {
     height: 100vh;

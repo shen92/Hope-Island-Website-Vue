@@ -1,18 +1,17 @@
 <template>
   <div class="team">
-    <div class="mainContent">
-      This is Team
-    </div>
+    <Developer/>
     <Footer/>
   </div>
 </template>
 
 <script>
-import { Footer } from '@/components'
+import { Developer, Footer } from '@/components'
 
 export default {
   name: 'Team',
   components: {
+    Developer,
     Footer
   },
 }
@@ -20,12 +19,6 @@ export default {
 
 <style lang="scss" scoped>
   .team {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .mainContent {
     height: 100%;
     display: flex;
     flex-direction: column;

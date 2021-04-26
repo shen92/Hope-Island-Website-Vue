@@ -8,6 +8,7 @@
 
 <script>
 export default {
+  name: 'Section',
   props: {
     backgroundPath: String,
     isReversed: Boolean

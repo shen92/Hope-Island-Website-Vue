@@ -32,6 +32,12 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'Introduction'
+}
+</script>
+
 <style lang="scss" scoped>
   .introduction {
     height: 100vh;

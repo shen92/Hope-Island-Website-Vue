@@ -19,6 +19,12 @@
   </v-app-bar>
 </template>
 
+<script>
+export default {
+  name: 'NavBar'
+}
+</script>
+
 <style scoped lang="scss">
   .navBar {
     display: flex;

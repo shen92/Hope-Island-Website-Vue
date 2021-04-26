@@ -53,6 +53,12 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'GameMode'
+}
+</script>
+
 <style lang="scss" scoped>
   .gameMode {
     height: 100vh;

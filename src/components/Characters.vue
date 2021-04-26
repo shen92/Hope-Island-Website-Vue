@@ -42,6 +42,12 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'Characters'
+}
+</script>
+
 <style lang="scss" scoped>
   .characters {
     height: 150vh;

@@ -25,6 +25,12 @@ export default {
 }
 </script>
 
+<script>
+export default {
+  name: 'NavButton'
+}
+</script>
+
 <style scoped>
   .button {
     width: fit-content;
