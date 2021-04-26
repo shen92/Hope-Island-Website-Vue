@@ -1,28 +1,28 @@
 <template>
   <div class="about">
-    <SectionAlt backgroundPath="/images/scenes/level3b.png">
+    <SectionAlt backgroundPath="/images/scenes/level3b.jpg">
       <div class="title heroTitle textLight">Welcome to Hope Island</div>
     </SectionAlt>
     <Introduction/>
-    <SectionAlt backgroundPath="/images/scenes/level2-2.png">
+    <SectionAlt backgroundPath="/images/scenes/level2-2.jpg">
       <div style="display: flex; flex-direction: column; align-items: center">
         <div class="title heroTitle textLight">Design and Inspirations</div>
         <div class="title heroSubTitle textLight" style="margin-top: 2vh">Read More on <span><a class="link" href="/files/Hope_Island_GDD.pdf" download>Game Design Document</a></span></div>
       </div>
     </SectionAlt>
     <Inspirations/>
-    <SectionAlt backgroundPath="/images/scenes/level1b.png">
+    <SectionAlt backgroundPath="/images/scenes/level1b.jpg">
       <div class="title heroTitle textLight">Gameplay and Mode</div>
     </SectionAlt>
     <GameMode/>
-    <SectionAlt backgroundPath="/images/characters/charlottel1.png">
+    <SectionAlt backgroundPath="/images/characters/charlottel1.jpg">
       <div class="title heroTitle textLight">Characters and Skills</div>
     </SectionAlt>
     <Characters/>
-    <SectionAlt backgroundPath="/images/scenes/level1-2.png">
+    <SectionAlt backgroundPath="/images/scenes/level1-2.jpg">
       <div class="title heroTitle textLight">Maps and Levels</div>
     </SectionAlt>
-    <Section backgroundPath="/images/scenes/level0.png" :isReversed="false">
+    <Section backgroundPath="/images/scenes/level0.jpg" :isReversed="false">
       <div class="slotContentContainer map">
         <div class="slotContent">
           <div>
@@ -37,7 +37,7 @@
         </div>
       </div>
     </Section>
-    <Section backgroundPath="/images/scenes/level1-4.png" :isReversed="true">
+    <Section backgroundPath="/images/scenes/level1-4.jpg" :isReversed="true">
       <div class="slotContentContainer map">
         <div class="slotContent">
           <div>
@@ -52,7 +52,7 @@
         </div>
       </div>
     </Section>
-    <Section backgroundPath="/images/scenes/level2-1.png" :isReversed="false">
+    <Section backgroundPath="/images/scenes/level2-1.jpg" :isReversed="false">
       <div class="slotContentContainer map">
         <div class="slotContent">
           <div>
@@ -67,7 +67,7 @@
         </div>
       </div>
     </Section>
-    <Section backgroundPath="/images/scenes/level3-1.png" :isReversed="true">
+    <Section backgroundPath="/images/scenes/level3-1.jpg" :isReversed="true">
       <div class="slotContentContainer map">
         <div class="slotContent">
           <div>

@@ -2,7 +2,7 @@
   <div class="home">
     <Landing/>
     <VideoPlayer/>
-    <Section backgroundPath="/images/scenes/level0.png" :isReversed="false">
+    <Section backgroundPath="/images/scenes/level0.jpg" :isReversed="false">
       <div class="slotContentContainer features">
         <div class="slotContent">
           <div class="title cardTitle">Features</div>
@@ -16,7 +16,7 @@
         </div>
       </div>
     </Section>
-    <Section backgroundPath="/images/scenes/level1-3.png" :isReversed="true">
+    <Section backgroundPath="/images/scenes/level1-3.jpg" :isReversed="true">
       <div class="slotContentContainer story">
         <div class="slotContent">
           <div class="title cardTitle">Story</div>
@@ -29,7 +29,7 @@
         </div>
       </div>
     </Section>
-    <Section backgroundPath="/images/scenes/level2b.png" :isReversed="false">
+    <Section backgroundPath="/images/scenes/level2b.jpg" :isReversed="false">
       <div class="slotContentContainer developers">
         <div class="slotContent">
           <div class="title cardTitle">Developers</div>
@@ -51,7 +51,7 @@
         </div>
       </div>
     </Section>
-    <Section backgroundPath="/images/scenes/level3-2.png" :isReversed="true">
+    <Section backgroundPath="/images/scenes/level3-2.jpg" :isReversed="true">
       <div class="slotContentContainer release">
         <div class="slotContent">
           <div>
