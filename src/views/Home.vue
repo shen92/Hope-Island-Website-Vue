@@ -12,7 +12,7 @@
             <div class="content cardContent">Random Maps</div>
             <div class="content cardContent">Random Pickups</div>
           </div>
-          <NavButton path="about"/>
+          <NavButton path="/about"/>
         </div>
       </div>
     </Section>
@@ -25,7 +25,7 @@
             <br><br>
             As the chosen warriors, Vincent, Marc and Charlotte must start the journey to escape Hope Island immediately to release the ancient magic to save Hope Island.
           </div>
-          <NavButton path="about"/>
+          <NavButton path="/about"/>
         </div>
       </div>
     </Section>
@@ -47,7 +47,7 @@
               Spring 2021
             </div>
           </div>
-          <NavButton path="team"/>
+          <NavButton path="/team"/>
         </div>
       </div>
     </Section>

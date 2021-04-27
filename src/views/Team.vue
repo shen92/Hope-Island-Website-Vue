@@ -21,7 +21,7 @@
           </div>
         </div>
       </Developer>
-      <Developer :isReversed="true" avatarPath="/images/avatars/yunxuan.jpg">
+      <Developer :isReversed="true" avatarPath="/images/avatars/yunxuan.png">
         <div class="personalInfo">
           <div class="title">
             Yunxuan Cai 
@@ -30,9 +30,9 @@
             </a>
             </div>
           <div class="subtitle">
-            Character Designer (Player) 
+            Player Character Systems Engineer
             <br>
-            Character Engineer (Player) 
+            Gameplay Designer
             <br>
             Technical Artist
             <br>
@@ -62,9 +62,9 @@
             </a>
           </div>
           <div class="subtitle">
-            Character Designer (Enemy) 
+            Enemy Character Designer
             <br>
-            Character Engineer (Enemy)
+            Enemy Character Systems Engineer
             <br>
             UI Engineer
           </div>
@@ -79,9 +79,9 @@
             </a>
           </div>
           <div class="subtitle">
-            Character Designer (Boss)
+            Enemy Character Designer
             <br>
-            Character Engineer (Boss) 
+            Enemy Character Systems Engineer 
             <br>
             UI Engineer
           </div>

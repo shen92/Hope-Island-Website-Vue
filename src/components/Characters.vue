@@ -7,9 +7,9 @@
       <div class="characterDescriptionContainer">
         <div class="title characterTitle">Vincent</div>
         <div class="content characterDescription">
-          Vincent is the descendant of the Hope Island Great Warrior, who defends the Matard in the ancient. 
+          Vincent is the descendant of the Hope Island Great Warrior, who defends the Matard in the ancient.
           <br><br>
-          He is Also the leader of Hope Island Kingdom Guards. Vincent can equip a passive ability instead of regular stamina skills to blend rules.
+          He is also the leader of Hope Island Kingdom Guards. Vincent can equip a passive ability instead of regular stamina skills to blend rules.
         </div>
       </div>
     </div>
@@ -22,7 +22,7 @@
         <div class="content characterDescription">
           Marc is a member of Hope Island Kingdom Guards. He is also the friend of Vincent. 
           <br><br>
-          Marc focuses more on melee attacks, and has more ability to strengthen up basic statistics.
+          Marc focuses more on melee attacks, and has more skills to strengthen basic stats. But some of them have to pay a cost.
         </div>
       </div>
     </div>
@@ -33,9 +33,9 @@
       <div class="characterDescriptionContainer">
         <div class="title characterTitle">Charlotte</div>
         <div class="content characterDescription">
-          Charlotte is the younger sister of Marc. She is also the member of Hope Island Kingdom Guards.
+          Charlotte is the younger sister of Marc. She is also a member of Hope Island Kingdom Guards.
           <br><br>
-          Charlotte is a magic-based character with simple sword attack.
+          Charlotte is a magic-based character with a simple sword attack.
         </div>
       </div>
     </div>
