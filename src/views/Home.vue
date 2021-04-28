@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <Landing/>
-    <VideoPlayer/>
+    <VideoPlayer src="https://www.youtube.com/embed/72nYak1xM4Y?controls=0"/>
     <Section backgroundPath="/images/scenes/level0.jpg" :isReversed="false">
       <div class="slotContentContainer features">
         <div class="slotContent">

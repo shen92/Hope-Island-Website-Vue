@@ -4,6 +4,7 @@
       <div class="title heroTitle textLight">Welcome to Hope Island</div>
     </SectionAlt>
     <Introduction/>
+    <VideoPlayer src="https://www.youtube.com/embed/kx65PHULkig?controls=0"/>
     <SectionAlt backgroundPath="/images/scenes/level2-2.jpg">
       <div style="display: flex; flex-direction: column; align-items: center">
         <div class="title heroTitle textLight">Design and Inspirations</div>
@@ -87,7 +88,7 @@
 </template>
 
 <script>
-import { Section, SectionAlt, Introduction, Inspirations, GameMode, Characters, Footer } from '@/components'
+import { Section, SectionAlt, Introduction, VideoPlayer, Inspirations, GameMode, Characters, Footer } from '@/components'
 
 export default {
   name: 'About',
@@ -96,6 +97,7 @@ export default {
     Section,
     SectionAlt,
     Introduction,
+    VideoPlayer,
     Inspirations,
     GameMode,
     Characters
