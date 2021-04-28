@@ -4,11 +4,12 @@
       <a href="https://games.usc.edu" target="_blank">
         <img height="50" width="auto" src="/images/logo/uscGames.png">
       </a>
+      <router-link to="/" >
+        <img height="54" width="auto" src="/images/logo/hopeIsland.png">
+      </router-link>
     </div>
     <div class="navContentContainer" style="justify-content: center">
-      <router-link to="/">
-        <img height="50" width="auto" src="/images/logo/hopeIsland.png">
-      </router-link>
+      
     </div>
     <div class="navContentContainer" style="justify-content: flex-end">
       <router-link class="navLink" to="/">Home</router-link>
@@ -21,8 +22,10 @@
 
 <script>
 export default {
-  name: 'NavBar'
+  name: 'NavBar',
+  
 }
+ 
 </script>
 
 <style scoped lang="scss">
@@ -33,6 +36,7 @@ export default {
 
   .navContentContainer {
     display: flex;
+    align-items: center;
     width: 33vw;
     padding: 0px 2%;
     gap: 6%

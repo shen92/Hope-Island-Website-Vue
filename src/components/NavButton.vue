@@ -1,7 +1,9 @@
 <template>
-  <div class="button title" @click="onButtonClick()">
+  <router-link :to="this.$props.path" style="text-decoration: none; color: inherit;">
+    <div class="button title">
       Read More
-  </div>
+    </div>
+  </router-link>
 </template>
 
 <script>
@@ -13,25 +15,12 @@ export default {
         required: true,
       }
   },
-  methods: {
-  onButtonClick () {
-     this.$router.push(
-        {
-          path: this.$props.path,
-        }
-     )
-    },
-  }
-}
-</script>
-
-<script>
-export default {
-  name: 'NavButton'
 }
 </script>
 
 <style scoped>
+  
+
   .button {
     width: fit-content;
     border: 1px solid black;
